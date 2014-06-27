@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="stylesheets/site_icon.png">
+        <link rel="apple-touch-icon" href="stylesheets/site_icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="stylesheets/site_icon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="stylesheets/site_icon.png">
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <title>Mike Taptich</title>
+        <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <link href="assets/css/topmenufixed.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <body>
+        <nav class="sidenav topf" role="navigation">
+            <ul class="menu">
+                <li class="user">
+                    <div class="search-block">
+                        
+                    </div>
+                    <div class="content">
+                        <img class="img-circle" height="54" src="assets/img/me.jpg" alt="">
+                        <p>Mike Taptich
+                            <br />
+                            <small>Cooler. Cleaner. Cheaper.</small>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.ghggo.com/">
+                        Home 
+                        <div>
+                            <img src="assets/img/icons/dashboard.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        Charts
+                        <div>
+                            <img src="assets/img/icons/charts.png" alt="">
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a class="back"><i class="fa fa-angle-left"></i> Back</a></li>
+                        <li><a href="http://www.ghggo.com/route_conditions_and_emissions">Marginal Allocation</a></li>
+                        <li><a href="http://www.ghggo.com/cumulative_average_example">Cumulative Moving Average</a></li>
+                        <li><a href="http://www.ghggo.com/Well2Wheels">Cumulative Distribution Functions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        Maps
+                        <div>
+                            <img src="assets/img/icons/map.png" alt="">
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a class="back"><i class="fa fa-angle-left"></i> Back</a></li>
+                        <li><a href="http://www.ghggo.com/Mercury_intake">Intake Fraction</a></li>
+                        <li><a href="http://www.ghggo.com/Map_Gross_Annual_Ton">Maps in d3.js</a></li>
+                        <li><a href="http://www.ghggo.com/d4_PEMS_080813">Truck GHG Emission Factors (SF)</a></li>
+                        <li><a href="http://www.ghggo.com/d7_PEMS_080813">Truck GHG Emission Factors (LA)</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        Courses
+                        <div>
+                            <img src="assets/img/icons/documents.png" alt="">
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a class="back"><i class="fa fa-angle-left"></i> Back</a></li>
+                        <li>
+                            <a>
+                            CE11 - Engineered Systems and Sustainability <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="dropdown-menu second" role="menu">
+                                <li><a class="back"><i class="fa fa-angle-left"></i> Back</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/population_L1">Growth Models</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/impacts_L2">Environmental Impacts</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/climate_L3">Climate Change</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/LCA_L4">Life-Cycle Assessment</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Air_pollution_L5">Air Quality</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Buildings_L6">Building Sustainability</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Water_pollution_L7">Water Quality</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Reuse_L8">Material Reuse</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Electricity_L9">Electricity</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Transportation_L10">Transportation</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Energy_Efficiency_L13">Energy Efficiency</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Engineering_Economics_L14">Engineering Economics</a></li>
+                                <li><a href="http://ce11gsi.appspot.com/Risk_L15">Risk</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        Affliates 
+                        <div>
+                            <img src="assets/img/icons/folder.png" alt="">
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a class="back"><i class="fa fa-angle-left"></i> Back</a></li>
+                        <li><a href="http://vudlab.com/#/">Visualizing Urban Data IdeaLab</a></li>
+                        <li><a href="http://setosa.io/#/">Setosa.io</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="overlay"></div>
+        <div class="controlshint"><img src="assets/img/swipe.png" alt="Menu Help"></div>
+        <section class="wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="well">
+                            <ul >
+                                <li><a href='GTFS/SFMTA/Output/1/index.html'>1</a></li>
+<li><a href='GTFS/SFMTA/Output/2/index.html'>2</a></li>
+<li><a href='GTFS/SFMTA/Output/3/index.html'>3</a></li>
+<li><a href='GTFS/SFMTA/Output/5L/index.html'>5L</a></li>
+<li><a href='GTFS/SFMTA/Output/5/index.html'>5</a></li>
+<li><a href='GTFS/SFMTA/Output/71/index.html'>71</a></li>
+<li><a href='GTFS/SFMTA/Output/6/index.html'>6</a></li>
+<li><a href='GTFS/SFMTA/Output/71L/index.html'>71L</a></li>
+<li><a href='GTFS/SFMTA/Output/8AX/index.html'>8AX</a></li>
+<li><a href='GTFS/SFMTA/Output/8BX/index.html'>8BX</a></li>
+<li><a href='GTFS/SFMTA/Output/8X/index.html'>8X</a></li>
+<li><a href='GTFS/SFMTA/Output/9/index.html'>9</a></li>
+<li><a href='GTFS/SFMTA/Output/9L/index.html'>9L</a></li>
+<li><a href='GTFS/SFMTA/Output/10/index.html'>10</a></li>
+<li><a href='GTFS/SFMTA/Output/12/index.html'>12</a></li>
+<li><a href='GTFS/SFMTA/Output/14/index.html'>14</a></li>
+<li><a href='GTFS/SFMTA/Output/16X/index.html'>16X</a></li>
+<li><a href='GTFS/SFMTA/Output/17/index.html'>17</a></li>
+<li><a href='GTFS/SFMTA/Output/18/index.html'>18</a></li>
+<li><a href='GTFS/SFMTA/Output/19/index.html'>19</a></li>
+<li><a href='GTFS/SFMTA/Output/21/index.html'>21</a></li>
+<li><a href='GTFS/SFMTA/Output/22/index.html'>22</a></li>
+<li><a href='GTFS/SFMTA/Output/23/index.html'>23</a></li>
+<li><a href='GTFS/SFMTA/Output/24/index.html'>24</a></li>
+<li><a href='GTFS/SFMTA/Output/27/index.html'>27</a></li>
+<li><a href='GTFS/SFMTA/Output/28L/index.html'>28L</a></li>
+<li><a href='GTFS/SFMTA/Output/28/index.html'>28</a></li>
+<li><a href='GTFS/SFMTA/Output/29/index.html'>29</a></li>
+<li><a href='GTFS/SFMTA/Output/30/index.html'>30</a></li>
+<li><a href='GTFS/SFMTA/Output/45/index.html'>45</a></li>
+<li><a href='GTFS/SFMTA/Output/31/index.html'>31</a></li>
+<li><a href='GTFS/SFMTA/Output/33/index.html'>33</a></li>
+<li><a href='GTFS/SFMTA/Output/35/index.html'>35</a></li>
+<li><a href='GTFS/SFMTA/Output/36/index.html'>36</a></li>
+<li><a href='GTFS/SFMTA/Output/37/index.html'>37</a></li>
+<li><a href='GTFS/SFMTA/Output/38/index.html'>38</a></li>
+<li><a href='GTFS/SFMTA/Output/39/index.html'>39</a></li>
+<li><a href='GTFS/SFMTA/Output/41/index.html'>41</a></li>
+<li><a href='GTFS/SFMTA/Output/43/index.html'>43</a></li>
+<li><a href='GTFS/SFMTA/Output/44/index.html'>44</a></li>
+<li><a href='GTFS/SFMTA/Output/47/index.html'>47</a></li>
+<li><a href='GTFS/SFMTA/Output/48/index.html'>48</a></li>
+<li><a href='GTFS/SFMTA/Output/49/index.html'>49</a></li>
+<li><a href='GTFS/SFMTA/Output/52/index.html'>52</a></li>
+<li><a href='GTFS/SFMTA/Output/54/index.html'>54</a></li>
+<li><a href='GTFS/SFMTA/Output/56/index.html'>56</a></li>
+<li><a href='GTFS/SFMTA/Output/Powell-Mason/index.html'>Powell-Mason</a></li>
+<li><a href='GTFS/SFMTA/Output/Powell-Hyde/index.html'>Powell-Hyde</a></li>
+<li><a href='GTFS/SFMTA/Output/CALIFORNIA/index.html'>CALIFORNIA</a></li>
+<li><a href='GTFS/SFMTA/Output/66/index.html'>66</a></li>
+<li><a href='GTFS/SFMTA/Output/67/index.html'>67</a></li>
+<li><a href='GTFS/SFMTA/Output/76X/index.html'>76X</a></li>
+<li><a href='GTFS/SFMTA/Output/82X/index.html'>82X</a></li>
+<li><a href='GTFS/SFMTA/Output/80X/index.html'>80X</a></li>
+<li><a href='GTFS/SFMTA/Output/81X/index.html'>81X</a></li>
+<li><a href='GTFS/SFMTA/Output/83X/index.html'>83X</a></li>
+<li><a href='GTFS/SFMTA/Output/88/index.html'>88</a></li>
+<li><a href='GTFS/SFMTA/Output/90/index.html'>90</a></li>
+<li><a href='GTFS/SFMTA/Output/91/index.html'>91</a></li>
+<li><a href='GTFS/SFMTA/Output/N/index.html'>N</a></li>
+<li><a href='GTFS/SFMTA/Output/J/index.html'>J</a></li>
+<li><a href='GTFS/SFMTA/Output/J-OWL/index.html'>J-OWL</a></li>
+<li><a href='GTFS/SFMTA/Output/N-OWL/index.html'>N-OWL</a></li>
+<li><a href='GTFS/SFMTA/Output/M-OWL/index.html'>M-OWL</a></li>
+<li><a href='GTFS/SFMTA/Output/L-OWL/index.html'>L-OWL</a></li>
+<li><a href='GTFS/SFMTA/Output/K-OWL/index.html'>K-OWL</a></li>
+<li><a href='GTFS/SFMTA/Output/T-OWL/index.html'>T-OWL</a></li>
+<li><a href='GTFS/SFMTA/Output/S/index.html'>S</a></li>
+<li><a href='GTFS/SFMTA/Output/KT/index.html'>KT</a></li>
+<li><a href='GTFS/SFMTA/Output/L/index.html'>L</a></li>
+<li><a href='GTFS/SFMTA/Output/M/index.html'>M</a></li>
+<li><a href='GTFS/SFMTA/Output/1AX/index.html'>1AX</a></li>
+<li><a href='GTFS/SFMTA/Output/1BX/index.html'>1BX</a></li>
+<li><a href='GTFS/SFMTA/Output/31AX/index.html'>31AX</a></li>
+<li><a href='GTFS/SFMTA/Output/31BX/index.html'>31BX</a></li>
+<li><a href='GTFS/SFMTA/Output/38AX/index.html'>38AX</a></li>
+<li><a href='GTFS/SFMTA/Output/38BX/index.html'>38BX</a></li>
+<li><a href='GTFS/SFMTA/Output/108/index.html'>108</a></li>
+<li><a href='GTFS/SFMTA/Output/30X/index.html'>30X</a></li>
+<li><a href='GTFS/SFMTA/Output/38L/index.html'>38L</a></li>
+<li><a href='GTFS/SFMTA/Output/F/index.html'>F</a></li>
+<li><a href='GTFS/SFMTA/Output/14X/index.html'>14X</a></li>
+<li><a href='GTFS/SFMTA/Output/14L/index.html'>14L</a></li>
+<li><a href='GTFS/SFMTA/Output/NX/index.html'>NX</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer style="background:#fff; position: relative; z-index: 120;">
+      <div class="container">
+            <div class="row">
+            <hr>
+            <div class="container" style="margin-top:100px;"> <div id="services"><div class="row"><div class="col-md-8 col-md-offset-2 text-center"><h1><a target="_blank" href="http://www.linkedin.com/pub/michael-taptich/21/263/b28/">#AboutMeQuick</a></h1> <p class="lead">I am a civil engineering Ph.D. student developing a comprehensive understanding of the nexuses shared between civil systems, energy, and our environment. My research focuses on providing methods and tools to enable high resolution life cycle assessments of civil systems (e.g., transportation networks, biofuel production, water distribution, etc.). </p><p class="lead">I am also a co-founder of the Visualizing Urban Data IdeaLab at UC Berkeley.  Check out some of my data visualizations at: <a href="http://vudlab.com/">vudlab.com/</a></p></div></div></div> </div>
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <ul class="list-inline">
+                  <li><a href="mailto:m.taptich@berkeley.edu"><i class="fa fa-envelope-o fa-3x"></i></a></li>
+                  <li><a href="https://twitter.com/MikeTaptich"><i class="fa fa-twitter fa-3x"></a></i></li>
+                  <li><a href="http://www.linkedin.com/pub/michael-taptich/21/263/b28/"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+                  <li><a href="https://github.com/mtaptich"><i class="fa fa-github fa-3x"></i></a></li>
+                </ul>
+                <div class="top-scroll">
+                  <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+                </div>
+                <hr>
+                <p>Copyright &copy; Mike Taptich 2014</p>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <div style="position: absolute; right: 10px; bottom:45px; z-index: 100;"> 
+        <a href="https://twitter.com/MikeTaptich" target="_blank">
+                <img id="twicons" src="assets/img/Social_Icons/twitter_blk.png" alt="" style="opacity:0.7" >
+        </a>
+        <script type="text/javascript">
+            d3.select("#twicons").on("mouseover", function(){d3.select(this).style("opacity", 1)}).on("mouseout", function(){d3.select(this).style("opacity", 0.7)})
+        </script>
+    </div>
+    <div style="position: absolute; right: 6px; bottom:12px; z-index: 100;"> 
+        <a href="https://github.com/mtaptich" target="_blank">
+                <img id="ghicons" src="assets/img/Social_Icons/github_blk.png" alt="" style="opacity:0.7" >
+        </a>
+        <script type="text/javascript">
+            d3.select("#ghicons").on("mouseover", function(){d3.select(this).style("opacity", 1)}).on("mouseout", function(){d3.select(this).style("opacity", 0.7)})
+        </script>
+    </div>
+    <div style="position: absolute; right: 10px; bottom:73px; z-index: 100;" > 
+        <a href="https://www.linkedin.com/pub/michael-taptich/21/263/b28" target="_blank">
+                <img id="LIicons" src="assets/img/Social_Icons/linked_blk.png" alt="" style="opacity:0.7" >
+        </a>
+        <script type="text/javascript">
+            d3.select("#LIicons").on("mouseover", function(){d3.select(this).style("opacity", 1)}).on("mouseout", function(){d3.select(this).style("opacity", 0.7)})
+        </script>
+    </div>
+        <script type="text/javascript">$(document).bind("mobileinit", function(){$.extend(  $.mobile , {autoInitializePage: false})});</script>
+        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/topmenufixed.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+  .water {
+      fill: #eee;
+      fill-opacity: .99;
+      stroke: #420FA5;
+      stroke-width: 0.1px;
+    }
+
+    .SF {
+      fill: #fff;
+      fill-opacity: .99;
+      stroke: #fff;
+      stroke-width: 1px;
+    }
+
+    .county {
+      fill: none;
+      fill-opacity: 1;
+      stroke: white;
+      stroke-width: 1px;
+    }
+
+    .SF_Streets{
+     fill: none;
+      fill-opacity: 1;
+      stroke: white;
+      stroke-width: 0.1px;
+      shape-rendering: geometricPrecision;
+    }
+
+    .buslanes{
+     fill: none;
+      opacity: 1;
+      stroke-width: 2px;
+    }
+
+    .busstops{
+      fill: #FFEDCA;
+      stroke: #A68342;
+      stroke-width: 1px;
+    }
+
+    .tooltip_2 {
+      border: 1px solid #fff;
+        color: black;
+        opacity: 0.8;
+        background-color: #eee;
+    }
+
+    .route {
+      fill: none;
+      stroke: #eee;
+      stroke-width: 1px;
+      stroke-dasharray: 2, 2;
+    }
+
+    .chartbussstops{
+      fill: #FFEDCA;
+      stroke: #A68342;
+      stroke-width: 1px;
+    }
+
+    body{
+      position:absolute;
+      left:20px;
+    }
+</style>
+<body>
+<div id="map"></div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script type="text/javascript">
+var makemap = (function(){
+  var margin = {top: 50, right: 30, bottom: 30, left: 40},
+      height = 900 - margin.top -  margin.bottom,
+      width = 900- margin.right - margin.left;
+
+  var projection = d3.geo.mercator()
+      .center([-122.439639, 37.778 ])
+      .scale(350000)
+      .rotate([0,0]);
+
+  var svg = d3.select("#map").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height+margin.bottom + margin.top);
+
+  var path = d3.geo.path()
+      .projection(projection)
+      .pointRadius(1.5);
+
+  var g = svg.append("g")
+    
+  color = d3.scale.category20b();
+
+  queue()
+    .defer(d3.json, "../../../../data/SFMTA/HTML/bayareaTOPO.json")
+    .defer(d3.json, "../../../../data/SFMTA/HTML/SFTOPO.json")
+    .defer(d3.json, "../../../../data/SFMTA/HTML/SF_Streets_topo.json")
+    .defer(d3.json, "38L_sfmtaTOPO.json")
+    .await(ready);
+
+  function ready(error, WU, sf, Streets,lanes){
+   svg.append("g")
+          .attr("class", "water")
+        .selectAll("path")
+          .data(topojson.feature(WU, WU.objects.bayareaGEO).features)
+        .enter().append("path")
+          .attr("d", path)
+
+   svg.append("g")
+      .attr("class", "SF")
+    .selectAll("path")
+      .data(topojson.feature(sf, sf.objects.SFGEO).features)
+    .enter().append("path")
+      .attr("d", path)
+
+   svg.append("g")
+      .attr("class", "SF_Streets")
+    .selectAll("path")
+      .data(topojson.feature(Streets, Streets.objects.SF_Streets).features)
+    .enter().append("path")
+      .style("stroke", function(d){ return "#BFB5A2"})
+      .style("stroke-width", "0.3")
+      .attr("d", path)
+
+    svg.append("g")
+          .attr("class", "buslanes")
+        .selectAll("path")
+          .data(topojson.feature(lanes, lanes.objects.sfmta).features)
+        .enter().append("path")
+          .style("stroke", "#A44148")
+          .attr("d", path)
+  }
+
+  // zoom and pan
+  
+  var zoom = d3.behavior.zoom()
+      .on("zoom",function() {
+          svg.selectAll("g").attr("transform","translate("+ 
+              d3.event.translate.join(",")+")scale("+d3.event.scale+")");
+    });
+    
+  svg.call(zoom); 
+})()
+
+</script>
+</body>
+</html>

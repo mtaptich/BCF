@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"expectedline"
+			],
+			[
+				"da",
+				"dataArray"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"st",
+				"stroke-width"
+			],
+			[
+				"inte",
+				"interface"
+			],
+			[
+				"liner",
+				"linetrue"
+			],
+			[
+				"tim",
+				"timevals"
+			],
+			[
+				"do",
+				"direction"
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
+				"pars",
+				"parseTime"
+			],
+			[
+				"par",
+				"parseTime"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"min",
+				"minutes"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"str",
+				"stroke-width"
+			],
+			[
+				"scr",
+				"screenVal"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"poin",
+				"point2"
+			],
+			[
+				"get",
+				"getPointAtLength"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sc",
+				"screenVal"
+			],
+			[
+				"cla",
+				"classtype"
+			],
+			[
+				"se",
+				"selectAll"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"time",
+				"time_bin"
+			],
+			[
+				"tr",
+				"trip_time"
+			],
+			[
+				"d",
+				"distance"
+			],
+			[
+				"o",
+				"ogr2ogr_to_shp"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"Tr",
+				"Truck_set"
+			],
+			[
+				"change",
+				"changeSpeed"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"P",
+				"Pac"
+			],
+			[
+				"tra",
+				"trans_ef"
+			],
+			[
+				"df",
+				"df2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Mike/BCF/scripts/route2topo.py",
+			"settings":
+			{
+				"buffer_size": 2625,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Work Product/Figures/Graphs/SmartWay/stylesheets/SmartwayPayload.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/Model/makeSpatialDF.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/stylesheets/LCA_error.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/stylesheets/script/error_transition.js",
+		"/Users/Mike/CarbonBalance/data/test_matrix.json",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/ridership_range.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/Model/google_transit/Geary r38/merge_stops.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Maps/SF_Streets/index.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/bounding_error_bus.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/Model/merge_bus_data.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Maps/SF_Streets/stylesheets/merge_bus_data.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/speed_over_distance.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/Model/o2o.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/data/ridership.csv",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Maps/SF_Streets/stylesheets/ridership.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/Model/google_transit/Geary r38/d3/bus_arrivals2.html",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/Google_Map_Tool/Alpha 1.01/Legend/admin/stylesheets/scripts/speed-corrected.js",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Model/LCA_EF_error/Model/fuel_model.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/Model/test.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/Model/fuel_model.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/Model/o2o.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/Model/makeSpatialDF.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/Model/local_ogr2ogr.py",
+		"/Users/Mike/Desktop/ne_110m_admin_0_countries/test.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/Model/ogr2ogr.py",
+		"/Library/Frameworks/GDAL.framework/Versions/1.9/Python/2.7/site-packages/ogr2ogr.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/Fuel Rate/GEM_PERE.py",
+		"/Users/Mike/Desktop/python_server/main.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/LCA_EF_error/stylesheets/script/test.js",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/index.html",
+		"/Users/Mike/ce11gsi/main.py",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE11/d3/ce11_home2.html",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/stylesheets/preview.html",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE11/d3/energy_efficiency.html",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE11/d3/economics.html",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE11/d3/risk.html",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE11/d3/stylesheets/energy_efficiency.html",
+		"/Users/Mike/Dropbox/Teaching/Classes/CE11/d3/buildings.html",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Work Product/Figures/Graphs/GEM PERE/stylesheets/brush_route_perkm.html",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/Jensen's Inequality/stylesheets/Jensens_Inequality.html",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/Jensen's Inequality/stylesheets/scripts/linechart.js",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/Jensen's Inequality/stylesheets/styles/slider.css",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Graphs/Jensen's Inequality/stylesheets/styles/style.css",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/D3/Maps/FAF/CA_net_GHG14.html",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/stylesheets/data/world-50m.json",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/stylesheets/data/flowers.csv",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/stylesheets/js/codemirror.js",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/stylsheets/js/grayscale.js",
+		"/Users/Mike/Dropbox/Teaching/Vudlab/Gadgil Group 2014/stylsheets/css/greyScale.css",
+		"/Users/Mike/Desktop/test3.py",
+		"/Users/Mike/Desktop/input.csv",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Work Product/Figures/Graphs/MPG or GPM/scripts/linechart.js",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Work Product/Figures/Graphs/MPG or GPM/linechart1.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"cons",
+			"time",
+			"stylesheets",
+			"tick",
+			"stylesheets",
+			"150)",
+			".attr(\"x\", 150)",
+			"800",
+			"650",
+			"top: 20",
+			"bottom: 30",
+			"linefortruevalue",
+			"	",
+			"riders",
+			"minutes",
+			"text",
+			"pom",
+			"city",
+			"date",
+			"temp",
+			"\",\"",
+			"main",
+			"test",
+			"consol",
+			"cons",
+			"top_gear",
+			"conso",
+			"switch",
+			"false",
+			"true",
+			"v ",
+			"int",
+			"class=\"img-circle\"",
+			"4",
+			"	",
+			"js",
+			"bod",
+			"area",
+			"text a",
+			"texta",
+			"text",
+			"cale(0.75, 0.75)",
+			"scale(0.25, 0.25)",
+			"img",
+			"intro-bg",
+			"intro-b",
+			"vehicle_position",
+			"translateAlong",
+			"point",
+			"vehicle_position",
+			"tick",
+			"value",
+			"cli",
+			"clip",
+			"data",
+			"path",
+			"line",
+			"data",
+			"0, 0",
+			"round",
+			"y(",
+			"y(20)",
+			"20, 0, 0",
+			"1250",
+			"rec",
+			"()\n",
+			"a + ",
+			"gal/year",
+			"arrow",
+			"handle",
+			"slid",
+			"MPG",
+			"domain",
+			" x.r",
+			" x.dom",
+			" x =",
+			"slider",
+			"14000",
+			"12500/(0.75",
+			"55",
+			"dimple"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"data",
+			".attr(\"x\", 190)",
+			"900",
+			"800",
+			"top: 10",
+			"bottom: 20",
+			"bottom: 15",
+			"lineIBave",
+			"\",\"",
+			"speed",
+			"distance",
+			"link",
+			"trip_id",
+			"arrival_time",
+			"distance",
+			"",
+			"5",
+			",",
+			"cale(0.7, 0.7)",
+			"scale(0.5, 0.5)",
+			"average",
+			"y(1)",
+			"20, 0, 1",
+			"Emission Factor, g CO2,e / ton-km",
+			"mt",
+			"4000",
+			"12500/(0.75*6.1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Mike/BCF/scripts/route2topo.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2625,
+								2625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "BCF.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"stylesheets/bus_map.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
